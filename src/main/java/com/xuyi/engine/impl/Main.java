@@ -23,6 +23,13 @@ public class Main {
         //start processor
         orderDetailEngine.start(contains);
 
+        //mock req
+        OrderDetailContext orderDetailContext = new OrderDetailContext();
+        OrderQueryRequest orderQueryRequest = new OrderQueryRequest();
+        orderDetailContext.setOrderQueryRequest(orderQueryRequest);
+        orderQueryRequest.setOrderId(159753l);
+
         //excute
+        orderDetailEngine.excute(orderDetailContext);
     }
 }

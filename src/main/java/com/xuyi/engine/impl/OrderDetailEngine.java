@@ -22,7 +22,9 @@ public class OrderDetailEngine implements BasicEngine {
 
     @Override
     public void excute(BasicContext context) {
-
+        basicProcessors.forEach(basicProcessor -> {
+            basicProcessor.excute(context);
+        });
     }
 
     @Override
