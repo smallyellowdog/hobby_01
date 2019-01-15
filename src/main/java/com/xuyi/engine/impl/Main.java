@@ -17,9 +17,9 @@ public class Main {
         OrderDetailEngine orderDetailEngine = new OrderDetailEngine();
 
         //register processor
-        orderDetailEngine.register(UserProcessor.class);
-        orderDetailEngine.register(SupplierProcessor.class);
-        orderDetailEngine.register(OrderDetailProcessor.class);
+        orderDetailEngine.register(UserProcessor.class)
+                .register(SupplierProcessor.class)
+                .register(OrderDetailProcessor.class);
 
         //start processor
         orderDetailEngine.start(contains);
