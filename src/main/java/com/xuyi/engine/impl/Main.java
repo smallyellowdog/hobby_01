@@ -1,12 +1,14 @@
 package com.xuyi.engine.impl;
 
+import com.google.common.collect.Maps;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Main {
     public static void main(String[] args) {
         //假设容器装着processor
-        Map<Class,Object> contains = new ConcurrentHashMap<>();
+        Map<Class,Object> contains = Maps.newConcurrentMap();
 
         contains.put(UserProcessor.class,new UserProcessor());
         contains.put(SupplierProcessor.class,new SupplierProcessor());

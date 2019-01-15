@@ -1,5 +1,6 @@
-package com.xuyi;
+package com.xuyi.aop;
 
+import com.google.common.collect.Lists;
 import com.xuyi.aop.dynamic.CglibProxy;
 import com.xuyi.aop.dynamic.DynamicProxyHello;
 import com.xuyi.aop.service.AuthService;
@@ -20,7 +21,7 @@ public class Test {
 
 
         //切面类，多切面
-        List list = new ArrayList();
+        List list = Lists.newArrayList();
         list.add(new LogImpl());
         list.add(new AuthService());//add(...)
 
