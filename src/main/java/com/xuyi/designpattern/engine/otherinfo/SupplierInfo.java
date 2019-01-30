@@ -1,4 +1,4 @@
-package com.xuyi.engine.otherinfo;
+package com.xuyi.designpattern.engine.otherinfo;
 
 /**
  * 店家信息

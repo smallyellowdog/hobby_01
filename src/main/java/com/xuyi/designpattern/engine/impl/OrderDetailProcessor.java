@@ -1,8 +1,7 @@
-package com.xuyi.engine.impl;
+package com.xuyi.designpattern.engine.impl;
 
-import com.xuyi.engine.basic.BasicContext;
-import com.xuyi.engine.basic.BasicProcessor;
-import com.xuyi.engine.otherinfo.OrderInfo;
+import com.xuyi.designpattern.engine.basic.BasicProcessor;
+import com.xuyi.designpattern.engine.otherinfo.OrderInfo;
 
 public class OrderDetailProcessor implements BasicProcessor<OrderDetailContext> {
     @Override

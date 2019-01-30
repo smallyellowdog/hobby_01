@@ -1,9 +1,9 @@
-package com.xuyi.engine.impl;
+package com.xuyi.designpattern.engine.impl;
 
-import com.xuyi.engine.basic.BasicContext;
-import com.xuyi.engine.otherinfo.OrderInfo;
-import com.xuyi.engine.otherinfo.SupplierInfo;
-import com.xuyi.engine.otherinfo.UserInfo;
+import com.xuyi.designpattern.engine.basic.BasicContext;
+import com.xuyi.designpattern.engine.otherinfo.OrderInfo;
+import com.xuyi.designpattern.engine.otherinfo.SupplierInfo;
+import com.xuyi.designpattern.engine.otherinfo.UserInfo;
 import lombok.Data;
 
 /**

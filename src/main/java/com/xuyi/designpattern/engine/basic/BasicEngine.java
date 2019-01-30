@@ -1,4 +1,4 @@
-package com.xuyi.engine.basic;
+package com.xuyi.designpattern.engine.basic;
 
 import java.util.Map;
 
